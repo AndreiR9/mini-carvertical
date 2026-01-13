@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+.hero {
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #f5f9ff, #eaf1ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 60px 50px;
+  border-radius: 20px;
+  max-width: 650px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+}
+
+.card h1 {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 15px;
+  color: #0f172a;
+}
+
+.card p {
+  font-size: 18px;
+  color: #475569;
+  margin-bottom: 35px;
+}
+
+.vin-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.vin-box input {
+  flex: 1;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid #cbd5e1;
+  font-size: 16px;
+  outline: none;
+}
+
+.vin-box input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37,99,235,0.2);
+}
+
+.vin-box button {
+  padding: 16px 26px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.vin-box button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(37,99,235,0.35);
+}
+
+.hint {
+  font-size: 14px;
+  color: #64748b;
+}
